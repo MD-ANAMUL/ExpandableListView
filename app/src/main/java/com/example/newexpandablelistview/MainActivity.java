@@ -52,9 +52,11 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void prepareData() {
-//
-//        String[] head_name = getResources().getStringArray(R.array.head_list);
-//        String[] child_name = getResources().getStringArray(R.array.child_list);
+
+/*
+        String[] head_name = getResources().getStringArray(R.array.head_list);
+        String[] child_name = getResources().getStringArray(R.array.child_list);
+*/
 
         head_list_names = new ArrayList<>();
         child_list_names = new HashMap<>();
@@ -65,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         head_list_names.add("3.C Programme");
         head_list_names.add("4.Python");
         head_list_names.add("5.Kotlin");
+        head_list_names.add("6.JAVA8");
 
 
 //        Create Child List Like this
@@ -101,6 +104,12 @@ public class MainActivity extends AppCompatActivity {
         kotlin.add("1.3 Install KOTLIN Kit");
         kotlin.add("1.4 First KOTLIN");
 
+        List<String> java8 = new ArrayList<>();
+        java8.add("1.1 Hello KOTLIN");
+        java8.add("1.2 OverView KOTLIN");
+        java8.add("1.3 Install KOTLIN Kit");
+        java8.add("1.4 First KOTLIN");
+
 
 //        Add Child List Under One by One Head Title Name Like This
         child_list_names.put(head_list_names.get(0), OneChild);
@@ -108,19 +117,20 @@ public class MainActivity extends AppCompatActivity {
         child_list_names.put(head_list_names.get(2), programme_c);
         child_list_names.put(head_list_names.get(3), python);
         child_list_names.put(head_list_names.get(4), kotlin);
+        child_list_names.put(head_list_names.get(5), java8);
 
 
+/*
+      Add Head and Child List Title
+        for (int i = 0; i < head_name.length; i++) {
+            head_list_names.add(head_name[i]);
+            List<String> child = new ArrayList<>();
+            child.add(child_name[i]);
 
+            child_list_names.put(head_list_names.get(i), child);
 
-//      Add Head and Child List Title
-//        for (int i = 0; i < head_name.length; i++) {
-//            head_list_names.add(head_name[i]);
-//            List<String> child = new ArrayList<>();
-//            child.add(child_name[i]);
-//
-//            child_list_names.put(head_list_names.get(i), child);
-//
-//        }
+        }
+*/
 
 
     }
