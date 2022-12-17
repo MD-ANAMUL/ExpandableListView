@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">NewExpandableListView</string>
+
+
+ <string-array name="head_list">
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+     <item>Android</item>
+ </string-array>
+<string-array name="child_list">
+     <item>Android!</item>
+     <item>Android2</item>
+     <item>Android3</item>
+     <item>Android4</item>
+     <item>Android5</item>
+     <item>Android6</item>
+     <item>Android7</item>
+     <item>Android8</item>
+     <item>Android9</item>
+     <item>Android10</item>
+     <item>Android!!</item>
+     <item>Android13</item>
+     <item>Android12</item>
+     <item>Android15</item>
+    <item>Android!</item>
+     <item>Android2</item>
+     <item>Android3</item>
+     <item>Android4</item>
+     <item>Android5</item>
+     <item>Android6</item>
+     <item>Android7</item>
+     <item>Android8</item>
+     <item>Android9</item>
+     <item>Android10</item>
+     <item>Android!!</item>
+     <item>Android13</item>
+     <item>Android12</item>
+     <item>Android15</item>
+ </string-array>
+
+
+
+
+</resources>
